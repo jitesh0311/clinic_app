@@ -19,7 +19,7 @@ const Nav = () => {
               <a className='navbar__mid-list-links' href = "#" >Blog</a>
             </li>
         </ul>
-        <a href = "#" className='c-btn arrow-anim'>
+        <a href = "#" className='c-btn arrow-anim animHover'>
           <span className='c-btn_text' >Book now</span>
           <img className='c-btn_icon' width={18} height={18} src = {RightArrow} alt = "right-arrow" />
           

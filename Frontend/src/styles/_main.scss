@@ -1,0 +1,21 @@
+@import './colors';
+@import './fonts';
+
+.c-btn{
+    background-color: $c-blue;
+    border-radius: 6px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  
+    &_text{
+        color: $c-white;
+        @include font_medium17;
+    }
+  
+    &_icon{
+      color: $c-white;
+    }
+  }

@@ -1,4 +1,6 @@
 @import '../../fonts';
+@import '../../colors';
+
 
 .navbar{
     width: 100%;
@@ -10,8 +12,28 @@
     &__left{
         &-logo{
             @include font_medium40;
+            width: 140px;
+            height: auto;
         }
     }
 
+    &__mid{
+        &-list{
 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+
+            &-links{
+                @include font_medium17;
+
+                &:hover{
+                    color: $c-blue;
+                    transition: all .2s;
+                }
+            }
+        }
+
+    }
 }

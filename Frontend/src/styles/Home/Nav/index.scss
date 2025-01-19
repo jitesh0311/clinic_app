@@ -1,0 +1,17 @@
+@import '../../fonts';
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    &__left{
+        &-logo{
+            @include font_medium40;
+        }
+    }
+
+
+}
